@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.div1 {
+  background-image: url(./slider-bg.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  color: white;
+  height: 100vh;
+  margin-bottom: 90px;
+}
+.subdiv1 {
+  display: block;
+}
+#healet {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 30px 0 50px 20px;
+  font-size: small;
+}
+.bestjewellery {
+  padding: 90px 0 75px 120px;
+  width: 550px;
+}
+.bj {
+  padding: 0 0 20px 0;
+  font-size: x-large;
+}
+.bjwords {
+  padding: 0 0 50px 0;
+  font-size: larger;
+  font-weight:lighter;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.shopnow {
+  padding: 12px 45px;
+  border-radius: 5px;
+  border-color: rgb(253,156,107);
+  background-color:transparent;
+  color: rgb(253,156,107);
+  font-size: large;
+  border-width: 1px;
+  transition: background-color 0.8s;
+}
+.shopnow:hover {
+  color: white;
+  background-color: rgb(253,156,107);
+  cursor: pointer;
+}
+.div2 {
+  margin: 0 120px;
+}
+.latestproducts {
+text-align: center;
+margin-bottom: 50px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 20px;
+  row-gap: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+.new {
+  background-color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  padding: 15px 8px;
+  border-radius: 100%;
+}
+.necklace {
+display: flex;
+position: absolute;
+left: 15px;
+font-size: 18px;
+font-weight:500;
+bottom: 20px;
+gap: 100px
+}
+.price {
+color: red;
+}
+.img {
+  background-color: rgb(231, 236, 240);
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  position: relative;
+}
+#vap {
+  text-align: center;
+}
+.vap {
+padding: 15px 40px;
+margin-top: 40px;
+margin-bottom: 60px;
+border-radius: 5px;
+border-color: rgb(253,156,107);
+border-width: 1px;
+font-size: 15px;
+font-weight: bold;
+color: white;
+background-color: rgb(253,156,107);
+transition: background-color 0.5s;
+}
+.vap:hover {
+  border-color: rgb(253,156,107);
+  border-width: 1px;
+  background-color: transparent;
+  color: rgb(253,156,107);
+  cursor: pointer;
+}
+.div3 {
+  display: flex;
+  margin: 0 120px;
+  height: 60vh;
+}
+.div3left {
+  width: 50%;
+  position: relative;
+}
+.take {
+  background-color: black;
+  padding: 120px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  z-index: -1;
+}
+.div3right {
+  width: 50%;
+  padding: 60px 0;
+ }
+.div3right h1 {
+  padding-bottom: 15px;
+}
+.div3right p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-weight: 400;
+}
+.div3btn {
+  margin-top: 40px;
+  padding: 13px 40px;
+  border-color: rgb(253,156,107);
+  border-width: 1px;
+  background-color: rgb(253,156,107);
+  color: white;
+  font-size: 15px;
+  transition: background-color 0.5s;
+}
+.div3btn:hover {
+color: rgb(253,156,107);
+background-color: transparent;
+cursor: pointer;
+}
+.div4 {
+  display: flex;
+  margin: 0 10px;
+}
+.div4left {
+  width: 80%;
+  position: relative;
+}
+.promo {
+  font-size: 50px;
+  padding-bottom: 20px;
+  color: white;
+}
+.percent {
+  position: absolute;
+  top: 1px;
+  padding: 30px;
+}
+.div4right {
+display: grid;
+position: relative;
+}
+#promo {
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  right: 20px;
+  bottom: 240px;
+  text-align: right;
+}
+.lastpromo {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  bottom: 20px;
+  padding-left: 20px;
+}
+.div5 {
+  margin: 60px 0;
+  text-align: center;
+}
+.latest {
+  margin-bottom: 50px;
+}
+.div5grid {
+  display: flex;
+  margin: 0 120px;
+}
+.div5left {
+  text-align: left;
+  background-color: rgb(231, 236, 240);
+  margin-right: 20px;
+  padding-bottom: 25px;
+  position: relative;
+}
+.div5left h3 {
+  font-size: 25px;
+  margin: 30px 0 10px 20px;
+}
+.div5left p {
+  margin: 0 0 0 20px;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.div5left button {
+  margin: 20px 0 0 20px;
+  padding: 13px 35px;
+  font-size: 17px;
+  background-color: transparent;
+  border-width: 1px;
+  transition: background-color 0.5s;
+}
+.div5left button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.div5right {
+  text-align: left;
+  background-color: rgb(231, 236, 240);
+  padding-bottom: 25px;
+  position: relative;
+}
+.div5right h3 {
+  font-size: 25px;
+  margin: 30px 0 10px 20px;
+}
+.div5right p {
+  margin: 0 0 0 20px;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.date {
+  background-color: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;
+  padding: 10px 20px;
+  position: absolute;
+  left: 20px;
+  bottom: 200px;
+  border: 2px solid;
+}
+.div5right button {
+  margin: 20px 0 0 20px;
+  padding: 13px 35px;
+  font-size: 17px;
+  background-color: transparent;
+  border-width: 1px;
+  transition: background-color 0.5s;
+}
+.div5right button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.div6{
+  text-align: center;
+}
+.div6 h1 {
+  margin-bottom: 40px;
+}
+.client {
+  background-color: black;
+  padding: 20px 0;
+  margin: 0 250px;
+  border-radius: 15px;
+}
+.div6 img {
+  border-radius: 100%;
+  padding-bottom: 20px;
+}
+.div6 h3 {
+  padding-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  color: white;
+}
+.div6 p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  color: white;
+  padding: 0 20px;
+}
+.fa-solid {
+  font-size: 20px;
+  color: white;
+  padding-top: 10px;
+}
+.div7 {
+  margin: 70px 0 0 0;
+}
+.infotab {
+  display: flex;
+  background-color: black;
+}
+.placeholder {
+  padding: 10px 90px;
+}
+#arrow {
+  color: white;
+  background-color: rgb(253,156,107);
+  padding: 10px 20px;
+}
+#social {
+  padding-right: 5px;
+  font-size: 20px;
+  padding-top: 10px;
+  border-radius: 5px;
+  border-color: black;
+}
